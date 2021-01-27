@@ -1,0 +1,152 @@
+.page-title {
+    display: none;
+}
+
+.blog-container {
+    margin-top: 200px;
+}
+
+.blog-contents {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    border-bottom: 5px #b7b7b7 solid;
+    background-color: #FCF8E8;
+}
+
+.blog-img {
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+    margin: 45px;
+}
+
+.blog-content  {
+
+    padding: 50px;
+    padding-top: 0;
+
+    h1{
+        font-weight: 600;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+}
+
+.blog-tags {
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-bottom: 30px;
+}
+
+.blog-tag {
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+.blog-paragraph {
+    margin: 30px 0px;
+    font-size: 25px;
+}
+
+@media (max-width: 1024px) {
+
+    .blog-container {
+        margin-top: 100px;
+    }
+
+    .blog-contents {
+        margin-bottom: 50px;
+    }
+
+    .blog-img {
+        width: 90%;
+        height: 90%;
+        border-radius: 20px;
+        margin: 25px;
+    }
+
+    .blog-content {
+
+        padding: 0px 25px;
+
+        h1 {
+            font-size: 30px;
+        }
+
+        h4 {
+            font-size: 10px;
+        }
+    }
+
+    .blog-tags {
+        margin-bottom: 10px;
+    }
+
+    .blog-tag {
+        width: 100px;
+        margin: 5px;
+        padding: 5px;
+        font-size: 15px;
+        text-align: center;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    }
+
+    .blog-paragraph {
+        margin: 10px 0px 30px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .blog-container {
+        margin-top: 30px;
+    }
+
+    .blog-img {
+        margin: 16px 16px 5px;
+    }
+
+    .blog-contents {
+        margin-bottom: 40px;
+    }
+
+    .blog-content {
+
+        padding: 0px 15px;
+
+        h1 {
+            font-size: 25px;
+        }
+
+        h4 {
+            font-size: 10px;
+            margin: 0px;
+        }
+    }
+
+    .blog-tags {
+        margin-bottom: 5px;
+    }
+
+    .blog-tag {
+        font-size: 10px;
+    }
+
+    .blog-paragraph {
+        margin: 5px 0px 20px;
+        font-size: 12px;
+    }
+}

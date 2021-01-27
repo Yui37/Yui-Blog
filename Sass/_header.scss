@@ -1,0 +1,73 @@
+.header-container {
+    height: 100px;
+    padding: 25px;
+    background-color: $base-background-color;
+}
+
+.site-title h1{
+    color: #FCF8E8;
+}
+
+.menu-container {
+    color: #FDCAAB;
+}
+
+.menu-item {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.blog {
+    color: #FCF8E8;
+}
+
+.sns i {
+    font-size: 30px;
+    padding: 10px;
+}
+
+@media (max-width: 1024px) {
+
+    .header-container {
+        height: 70px;
+        padding: 15px 0px;
+    }
+
+    .site-title h1{
+        font-size: 30px;
+    }
+
+    .menu-item {
+        font-size: 13px;
+    }
+
+    .blog {
+        color: #FCF8E8;
+    }
+
+    .sns i {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+
+        /* ハンバーガーアイコン入れたい */
+
+    .header-container {
+        height: 40px;
+        padding: 7px 0px;
+    }
+
+    .site-title h1{
+        font-size:20px;
+    }
+
+    .menu-container {
+        display: none;
+    }
+
+    .sns i {
+        padding: 5px;
+    }
+}

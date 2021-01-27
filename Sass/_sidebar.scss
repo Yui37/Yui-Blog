@@ -1,0 +1,78 @@
+.sidebar {
+
+    text-align: center;
+    font-size: 15px;
+
+    h2 {
+        color: #DF7861;
+        margin-top: 200px;
+        margin-bottom: 20px;
+    }
+}
+
+img.bike {
+    width: 200px;
+    height: 125px;
+    border-radius: 20px;
+}
+
+.profile-contents {
+
+    h4 {
+        font-size: 20px;
+        color: #FDCAAB;
+    }
+
+    ul {
+        margin: 50px;
+    }
+
+    li {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    /* side */
+
+    .sidebar {
+
+        font-size: 10px;
+
+        h2 {
+            margin-top: 130px;
+            margin-bottom: 50px;
+            font-size: 20px;
+        }
+    }
+
+    img.bike {
+        width: 150px;
+        height: 100px;
+        }
+
+    .profile-contents {
+
+        h4 {
+            font-size: 15px;
+        }
+
+        ul {
+            margin: 10px;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+
+    .page-title {
+        margin: 40px 40px 0px;
+        display: inherit;
+        font-weight: 600;
+        color: #FDCAAB;
+    }
+
+    .sidebar {
+        display: none;
+    }
+}
