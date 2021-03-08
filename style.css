@@ -230,6 +230,10 @@ h5 {
   font-size: 20px;
 }
 
+.navbar-light .navbar-toggler {
+  display: none;
+}
+
 .blog {
   color: #FCF8E8;
 }
@@ -253,6 +257,10 @@ h5 {
     font-size: 13px;
   }
 
+  .navbar-light .navbar-toggler {
+    display: none;
+  }
+
   .blog {
     color: #FCF8E8;
   }
@@ -266,6 +274,11 @@ h5 {
   .header-container {
     height: 40px;
     padding: 7px 0px;
+  }
+
+  .navbar-light .navbar-toggler {
+    border-color: #707070;
+    stroke-width: "2";
   }
 
   .site-title h1 {
@@ -390,10 +403,12 @@ h5 {
 
   .blog-img {
     margin: 16px 16px 5px;
+    border-radius: 10px;
   }
 
   .blog-contents {
     margin-bottom: 40px;
+    border-radius: 10px;
   }
 
   .blog-content {

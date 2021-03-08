@@ -17,6 +17,10 @@
     font-size: 20px;
 }
 
+.navbar-light .navbar-toggler {
+    display: none;
+}
+
 .blog {
     color: #FCF8E8;
 }
@@ -41,6 +45,10 @@
         font-size: 13px;
     }
 
+    .navbar-light .navbar-toggler {
+        display: none;
+    }
+
     .blog {
         color: #FCF8E8;
     }
@@ -52,11 +60,16 @@
 
 @media (max-width: 600px) {
 
-        /* ハンバーガーアイコン入れたい */
+    /* ハンバーガーアイコン入れたい */
 
     .header-container {
         height: 40px;
         padding: 7px 0px;
+    }
+
+    .navbar-light .navbar-toggler {
+        border-color: $base-color;
+        stroke-width: '2';
     }
 
     .site-title h1{

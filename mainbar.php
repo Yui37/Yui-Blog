@@ -74,7 +74,7 @@
         </div>
     </div>
     <div class="pagenation">
-        <ul class="row pages">
+        <ul class="row pages full-width-container">
         <li><</li>
         <li>1</li>
         <li>2</li>

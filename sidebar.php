@@ -27,24 +27,24 @@
     <div class="side-contents latest-blog">
         <h2>最近の記事</h2>
         <ul class="blog-title">
-        <li>あけましておめでとうございます</li>
-        <li>ドイツ旅行記</li>
-        <li>Wordpress開発勉強中</li>
+            <li>あけましておめでとうございます</li>
+            <li>ドイツ旅行記</li>
+            <li>Wordpress開発勉強中</li>
         </ul>
     </div>
     <div class="side-contents blog-category">
         <h2>カテゴリー別</h2>
         <ul class="category-contents">
-        <li>プログラミング</li>
-        <li>ワーホリ</li>
+            <li>プログラミング</li>
+            <li>ワーホリ</li>
         </ul>
     </div>
     <div class="side-contents" id="blog-list">
         <h2>記事一覧</h2>
         <ul class="list-contents">
-        <li>Jan. 2021</li>
-        <li>Dec. 2020</li>
-        <li>Nov, 2020</li>
+            <li>Jan. 2021</li>
+            <li>Dec. 2020</li>
+            <li>Nov, 2020</li>
         </ul>
     </div>
 </div>

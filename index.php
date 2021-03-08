@@ -1,90 +1,5 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
-    <script src="https://kit.fontawesome.com/779dc48fa9.js" crossorigin="anonymous"></script>
-    <title>Yui Tsuchida</title>
-  </head>
-  <body>
-    <!--header start-->
-    <header>
-      <div class="row header-container full-width-container">
-        <div class="site-title column-7 column-sm-9 column-md-6">
-          <h1>Yui Tsuchida</h1>
-        </div>
-        <div class="row menu-container column-4 column-md-4">
-          <nuv>
-            <ul class="row cf" class="menu-items">
-              <li class="menu-item about">About</li>
-              <li class="menu-item works">Works</li>
-              <li class="menu-item blog">Blog</li>
-              <li class="menu-item contact">Contact</li>
-            </ul>
-          </nuv>
-        </div>
-        <div class="row sns column-1 column-sm-3 column-md-2">
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-twitter"></i>
-        </div>
-      </div>
-    </header>
-    <!--header end-->
-    <div class="row middle-container full-width-container">
-    <div class="page-title column-sm-12">
-      <h2>Yui Blog</h2>
-    </div>
-    <!--side start-->
-      <div class="sidebar column-3 column-md-3">
-        <div class="side-contents" class="profile">
-          <h2>About Me</h2>
-          <img src="ali-tawfiq-0ahqRV1sJJ4-unsplash (1).jpg" alt="Yuiのホームページ" class= "bike">
-          <div class="profile-contents">
-            <div class="oqupation">
-              <ul class="oqupation-contents">
-                <li>フロントエンジニア</li>
-                <li>歯科衛生士</li>
-                <li>カナダワーホリ経験者</li>
-              </ul>
-            </div>
-            <div class="hobby">
-              <h4>Hobby</h4>
-              <ul class="hobby-contents">
-                <li>旅行（国内外）</li>
-                <li>Saxophone演奏</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="side-contents latest-blog">
-          <h2>最近の記事</h2>
-          <ul class="blog-title">
-            <li>あけましておめでとうございます</li>
-            <li>ドイツ旅行記</li>
-            <li>Wordpress開発勉強中</li>
-          </ul>
-        </div>
-        <div class="side-contents blog-category">
-          <h2>カテゴリー別</h2>
-          <ul class="category-contents">
-            <li>プログラミング</li>
-            <li>ワーホリ</li>
-          </ul>
-        </div>
-        <div class="side-contents" id="blog-list">
-          <h2>記事一覧</h2>
-          <ul class="list-contents">
-            <li>Jan. 2021</li>
-            <li>Dec. 2020</li>
-            <li>Nov, 2020</li>
-          </ul>
-        </div>
-      </div>
-      <!--side end-->
+<?php get_header(); ?>
+<?php get_sidebar(); ?>
       <!--main start-->
       <div class="main-bar column-9 column-sm-12 column-md-9">
         <div class="blog-container">
@@ -162,7 +77,7 @@
           </div>
         </div>
         <div class="pagenation">
-          <ul class="row pages">
+          <ul class="row pages full-width-container">
             <li><</li>
             <li>1</li>
             <li>2</li>
@@ -176,14 +91,4 @@
     </div>
     <!--main end-->
     <!--fotter start-->
-    <footer>
-      <h5>© Yui Tsuchida All Rights Reserved.</h5>
-    </footer>
-    <!--fotter end-->
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
-</html>
+<?php get_footer(); ?>
