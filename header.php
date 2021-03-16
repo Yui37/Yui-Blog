@@ -18,10 +18,7 @@
             <nav>
                 <?php wp_nav_menu(
                     array(
-                        'theme_location' => 'about',
-                        'theme_location' => 'works',
-                        'theme_location' => 'blog',
-                        'theme_location' => 'contact'
+                        'menu' => 'primary',
                         )
                     );
                 ?>
