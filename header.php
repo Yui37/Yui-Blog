@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://kit.fontawesome.com/779dc48fa9.js" crossorigin="anonymous"></script>
     <title><?php bloginfo('name'); ?></title>
+    　<?php wp_head(); ?>
   </head>
   <body>
     <!--header start-->
     <header>
         <div class="row header-container full-width-container">
             <div class="site-title column-7 column-sm-7 column-md-6">
-                <h1><?php bloginfo('name'); ?></h1>
+                <h1>
+                    <?php bloginfo('name'); ?>
+                </h1>
             </div>
             <div class="row menu-container column-4 column-md-4 column-sm-2">
                 <nav>
@@ -32,4 +35,3 @@
             </div>
         </div>
     </header>
-<?php wp_head(); ?>

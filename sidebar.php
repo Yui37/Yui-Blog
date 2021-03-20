@@ -27,9 +27,9 @@
     <div class="side-contents latest-blog">
         <h2>最近の記事</h2>
         <ul class="blog-title">
-            <li>あけましておめでとうございます</li>
-            <li>ドイツ旅行記</li>
-            <li>Wordpress開発勉強中</li>
+            <li><?php the_title(); ?></li>
+            <li><?php the_title(); ?></li>
+            <li><?php the_title(); ?></li>
         </ul>
     </div>
     <div class="side-contents blog-category">
