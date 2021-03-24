@@ -1,5 +1,5 @@
 .header-container {
-    height: 100px;
+    height: 60px;
     padding: 25px;
     background-color: $base-background-color;
 }
@@ -12,11 +12,11 @@
     color: #FDCAAB;
 }
 
-.nav ul {
-    display: block;
-    justify-content: center;
-    flex-wrap: wrap;
-}
+    .menu > ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 
 .menu-item {
     padding: 10px;

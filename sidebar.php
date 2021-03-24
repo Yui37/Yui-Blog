@@ -1,4 +1,3 @@
-<div class="row middle-container full-width-container">
 <div class="page-title column-sm-12">
     <h2>Yui Blog</h2>
 </div>
@@ -6,7 +5,7 @@
     <div class="sidebar column-3 column-md-3">
     <div class="side-contents" class="profile">
         <h2>About Me</h2>
-        <img src="/wp-content/themes/Yui-Blog 21.01.08/bikewithflag.jpg" alt="Yuiのホームページ" class= "bike">
+        <img src="/wp-content/themes/YUI-BLOG/bikewithflag.jpg" alt="Yuiのホームページ" class= "bike">
         <div class="profile-contents">
         <div class="oqupation">
             <ul class="oqupation-contents">

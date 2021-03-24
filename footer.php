@@ -1,6 +1,6 @@
-<footer>
-    <h5>© Yui Tsuchida All Rights Reserved.</h5>
-</footer>
+    <footer>
+      <h5>© Yui Tsuchida All Rights Reserved.</h5>
+    </footer>
     <!--fotter end-->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
