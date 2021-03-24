@@ -21,13 +21,9 @@
                 <nav>
                     <?php wp_nav_menu(
                         array(
-                            'menu' => 'primary',
-                            )
-                        );
-                    ?>
-                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
+                            'theme_location' =>'about'
+                        )
+                    );?>
                 </nav>
             </div>
             <div class="row sns column-1 column-sm-3 column-md-2">
