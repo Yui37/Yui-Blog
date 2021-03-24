@@ -26,24 +26,36 @@
     <div class="side-contents latest-blog">
         <h2>最近の記事</h2>
         <ul class="blog-title">
-            <li><?php the_title(); ?></li>
-            <li><?php the_title(); ?></li>
-            <li><?php the_title(); ?></li>
+            <?php
+                $newposts = array(
+                    'type' => 'postbypost',
+                    'limit' => 5
+                    );
+                wp_get_archives($newposts);
+            ?>
         </ul>
     </div>
     <div class="side-contents blog-category">
-        <h2>カテゴリー別</h2>
+        <h2>カテゴリー一覧</h2>
         <ul class="category-contents">
-            <li>プログラミング</li>
-            <li>ワーホリ</li>
+            <?php
+                $catid = get_the_category();
+                $curCat = $catid[0]->cat_ID;
+
+                $args = array(
+                'child_of' => 1, //親カテゴリID
+                'title_li' => '', //タイトルはつけない
+                'current_category' => $curCat
+                );
+
+                wp_list_categories($args);
+            ?>
         </ul>
     </div>
     <div class="side-contents" id="blog-list">
-        <h2>記事一覧</h2>
+        <h2>月別アーカイブ</h2>
         <ul class="list-contents">
-            <li>Jan. 2021</li>
-            <li>Dec. 2020</li>
-            <li>Nov, 2020</li>
+            <?php wp_get_archives(); ?>
         </ul>
     </div>
 </div>
