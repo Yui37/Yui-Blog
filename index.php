@@ -32,14 +32,15 @@
       <?php endwhile; ?>
     </div>
     <div class="pagenation">
-      <div class="row pages full-width-container">
-        <li><</li>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-        <li>...</li>
-        <li>10</li>
-        <li>></li>
+      <?php
+        $args = array(
+            'mid_size' => 1,
+            'prev_text' => '&lt;&lt;prev',
+            'next_text' => 'next&gt;&gt;',
+            'screen_reader_text' => ' ',
+        );
+        the_posts_pagination($args);
+      ?>
       </div>
     </div>
   </div>

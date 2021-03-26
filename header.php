@@ -18,14 +18,9 @@
                 </h1>
             </div>
             <div class="menu-container column-3 column-md-4 column-sm-2">
-                <nav>
-                    <ul class="row menu">
-                        <li class="menu-item about"><a hrel="">About</a></li>
-                        <li class="menu-item works"><a hrel="">Works</a></li>
-                        <li class="menu-item blog"><a hrel="">Blog</a></li>
-                        <li class="menu-item contact"><a hrel="">Contact</a></li>
-                    </ul>
-                </nav>
+                <?php
+                    wp_nav_menu( array( 'theme_location' => 'header-menu' ) );
+                ?>
             </div>
             <div class="sns column-2 column-sm-3 column-md-2">
                 <?php get_template_part( 'sns' ); ?>
