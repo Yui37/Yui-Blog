@@ -19,7 +19,14 @@
             </div>
             <div class="menu-container column-3 column-md-4 column-sm-2">
                 <?php
-                    wp_nav_menu( array( 'theme_location' => 'header-menu' ) );
+                    wp_nav_menu(
+                        array(
+                            'theme_location' => 'menu',
+                            'menu' => 'primary',
+                            'link_before' => '<div class="blog">',
+                            'link_after' => '</div>',
+                            )
+                        );
                 ?>
             </div>
             <div class="sns column-2 column-sm-3 column-md-2">
