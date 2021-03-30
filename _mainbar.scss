@@ -27,16 +27,24 @@ img {
   }
 
 .blog-content  {
-
     padding: 50px;
     padding-top: 0;
+    color: $base-color;
+}
 
-    h1{
+.content-texts {
+
+    h1 {
+        font-size: 45px;
         font-weight: 600;
     }
 
     h4 {
         font-size: 15px;
+    }
+
+    p {
+        font-size: 25px;
     }
 }
 

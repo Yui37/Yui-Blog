@@ -18,15 +18,17 @@
               <p class="blog-tag"><?php single_tag_title(); ?></p>
               <p class="blog-tag"><?php single_tag_title(); ?></p>
             </div>
-            <h1>
-              <?php the_title(); ?>
-            </h1>
-            <h4>
-              <?php the_time('F.d.Y'); ?>
-            </h4>
-            <p class="blog-paragraph">
-              <?php the_excerpt(); ?>
-            </p>
+            <div class="content-texts">
+              <h1>
+                <?php the_title(); ?>
+              </h1>
+              <h4>
+                <?php the_time('F.d.Y'); ?>
+              </h4>
+              <p class="blog-paragraph">
+                <?php the_excerpt(); ?>
+              </p>
+            </div>
           </div>
         </div>
       <?php endwhile; ?>

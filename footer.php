@@ -1,5 +1,7 @@
     <footer>
-      <h5>© Yui Tsuchida All Rights Reserved.</h5>
+      <div class="footer-container">
+        <h5>© Yui Tsuchida All Rights Reserved.</h5>
+      </div>
     </footer>
     <!--fotter end-->
     <!-- Optional JavaScript -->

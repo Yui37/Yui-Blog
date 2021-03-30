@@ -32,6 +32,16 @@ img.bike {
     }
 }
 
+.blog-title > li > a {
+    color: $base-color;
+    text-decoration: none;
+}
+
+.list-contents > li > a {
+    color: $base-color;
+    text-decoration: none;
+}
+
 @media (max-width: 1024px) {
     /* side */
 
