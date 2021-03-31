@@ -21,10 +21,7 @@
                 <?php
                     wp_nav_menu(
                         array(
-                            'theme_location' => 'header-menu',
-                            'header-menu' => 'primary',
-                            'link_before' => '<div class="blog">',
-                            'link_after' => '</div>',
+                            'theme_location' => 'header-menu'
                             )
                         );
                 ?>

@@ -11,6 +11,7 @@ body {
 
 li {
   list-style: none;
+  padding: 8px;
 }
 
 a {
@@ -235,17 +236,17 @@ div .menu > ul {
 }
 
 div .page_item > a {
-  padding: 10px;
   font-size: 20px;
   color: #FDCAAB;
 }
 
-.navbar-light .navbar-toggler {
-  display: none;
+div .page-item-22 > a {
+  font-size: 20px;
+  color: #FCF8E8;
 }
 
-.blog {
-  color: #FCF8E8;
+.navbar-light .navbar-toggler {
+  display: none;
 }
 
 .sns i {
@@ -270,10 +271,6 @@ div .page_item > a {
 
   .navbar-light .navbar-toggler {
     display: none;
-  }
-
-  .blog {
-    color: #FCF8E8;
   }
 
   .sns i {
