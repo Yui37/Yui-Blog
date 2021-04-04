@@ -1,4 +1,49 @@
 @charset "UTF-8";
+.about-container {
+  text-align: center;
+}
+
+.about-contents h1 {
+  color: #DF7861;
+  font-size: 80px;
+  margin: 200px 100px 100px;
+}
+.about-contents i {
+  font-size: 130px;
+  color: #FDCAAB;
+}
+
+.about-picture {
+  margin: 100px 0px;
+}
+
+.profile-content {
+  margin: 100px;
+}
+
+.about-content {
+  margin: 150px;
+}
+
+.about-text {
+  margin: 50px;
+}
+
+.hobby-pictures {
+  margin: 100px;
+}
+
+.skill-contents {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 200px;
+}
+
+.skill-content {
+  margin: 80px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +56,6 @@ body {
 
 li {
   list-style: none;
-  padding: 8px;
 }
 
 a {
@@ -22,6 +66,11 @@ a {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.works-container {
+  text-align: center;
+  margin: 100px;
 }
 
 .footer-container {
@@ -35,10 +84,6 @@ a {
 
 h5 {
   padding-top: 150px;
-}
-
-.pages {
-  margin: 20px;
 }
 
 @media (max-width: 1024px) {
@@ -228,20 +273,19 @@ h5 {
 
 .menu-container {
   color: #FDCAAB;
+  margin: 10px;
 }
 
-div .menu > ul {
+.menu ul {
   display: flex;
   justify-content: center;
 }
-
-div .page_item > a {
-  font-size: 20px;
+.menu li a {
+  font-size: 22px;
   color: #FDCAAB;
+  margin: 10px;
 }
-
-div .page-item-22 > a {
-  font-size: 20px;
+.menu li a:hover {
   color: #FCF8E8;
 }
 
@@ -253,6 +297,10 @@ div .page-item-22 > a {
   font-size: 30px;
   padding: 10px;
   color: #707070;
+}
+
+.sns-links i:hover {
+  color: #FCF8E8;
 }
 
 @media (max-width: 1024px) {
@@ -368,6 +416,11 @@ img {
   font-size: 25px;
 }
 
+.pagenation {
+  text-align: center;
+  margin: 100px;
+}
+
 @media (max-width: 1024px) {
   .blog-container {
     margin-top: 100px;
@@ -478,8 +531,7 @@ img {
 }
 
 img.bike {
-  width: 200px;
-  height: 125px;
+  margin: 0;
   border-radius: 20px;
 }
 
@@ -538,6 +590,22 @@ img.bike {
   .sidebar {
     display: none;
   }
+}
+.works-title h1 {
+  font-size: 80px;
+  color: #DF7861;
+  margin: 100px;
+  text-align: center;
+}
+
+.works-picture {
+  text-align: center;
+  margin: 200px;
+}
+
+.works-skills {
+  text-align: center;
+  margin: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */

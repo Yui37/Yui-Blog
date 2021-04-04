@@ -37,7 +37,7 @@
 
         <main>
             <div class="about-container full-width-container">
-                <div class="contents about-picture">
+                <div class="about-contents about-picture">
                     <div class="profile-picture">
                         <img src="/wp-content/themes/YUI-BLOG/bikewithflag.jpg" alt="Yuiのホームページ" class= "bike">
                     </div>
@@ -46,20 +46,26 @@
                         <div class="about-title">
                             <h1>About Me</h1>
                         </div>
-                        <div class="dental">
+                        <div class="about-content dental">
                             <i class="fas fa-tooth"></i>
-                            <h2>歯科衛生士</h2>
-                            <h3>Dental Hygienist</h3>
+                            <div class="about-text">
+                                <h2>歯科衛生士</h2>
+                                <h3>Dental Hygienist</h3>
+                            </div>
                         </div>
-                        <div class="frontend">
+                        <div class="about-content frontend">
                             <i class="fas fa-code"></i>
-                            <h2>フロントエンドエンジニア</h2>
-                            <h3>Front-end Engineer</h3>
+                            <div class="about-text">
+                                <h2>フロントエンドエンジニア</h2>
+                                <h3>Front-end Engineer</h3>
+                            </div>
                         </div>
-                        <div class="working-holoday">
+                        <div class="about-content working-holoday">
                             <i class="fab fa-canadian-maple-leaf"></i>
-                            <h2>カナダワーホリ経験者</h2>
-                            <h3>Experienced Canada WH</h3>
+                            <div class="about-text">
+                                <h2>カナダワーホリ経験者</h2>
+                                <h3>Experienced Canada WH</h3>
+                            </div>
                         </div>
                     </div>
 
@@ -69,13 +75,17 @@
                         </div>
                         <div class="tlavel">
                             <!--自分のパソコン内にある画像に差し替え必要-->
-                            <img src="/wp-content/themes/YUI-BLOG/bikewithflag.jpg" alt="Yuiのホームページ" class= "bike">
+                            <div class="travel-picture hobby-pictures">
+                                <img src="/wp-content/themes/YUI-BLOG/bikewithflag.jpg" alt="Yuiのホームページ" class= "bike">
+                            </div>
                             <h2>旅行</h2>
                             <h3>travel</h3>
                         </div>
                         <div class="saxophone">
                             <!--自分のパソコン内にある画像に差し替え必要-->
-                            <img src="/wp-content/themes/YUI-BLOG/bikewithflag.jpg" alt="Yuiのホームページ" class= "bike">
+                            <div class="saxophone-picture hobby-pictures">
+                                <img src="/wp-content/themes/YUI-BLOG/bikewithflag.jpg" alt="Yuiのホームページ" class= "bike">
+                            </div>
                             <h2>Sax演奏</h2>
                             <h3>saxophone</h3>
                         </div>

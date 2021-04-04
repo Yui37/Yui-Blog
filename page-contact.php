@@ -36,8 +36,10 @@
         </header>
 
         <main>
-            <div class="works-container full-width-container">
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeVPPdigfbzD8v01iuW7G5u1hsPLgPeAxzbYc-FvBpGvMc1Ag/viewform?embedded=true" width="640" height="852" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+            <div class="works full-width-container">
+                <div class="works-container">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeVPPdigfbzD8v01iuW7G5u1hsPLgPeAxzbYc-FvBpGvMc1Ag/viewform?embedded=true" width="640" height="852" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+                </div>
             </div>
         </main>
         <?php get_footer(); ?>

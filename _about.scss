@@ -1,0 +1,49 @@
+.about-container{
+    text-align: center;
+}
+
+.about-contents{
+
+    h1{
+        color: $base-background-color;
+        font-size: 80px;
+        margin: 200px 100px 100px;
+    }
+
+    i{
+        font-size: 130px;
+        color: #FDCAAB;
+    }
+}
+
+.about-picture{
+    margin: 100px 0px;
+}
+
+.profile-content{
+    margin: 100px;
+}
+
+
+.about-content{
+    margin: 150px;
+}
+
+.about-text{
+    margin: 50px;
+}
+
+.hobby-pictures{
+    margin: 100px;
+}
+
+.skill-contents{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 200px;
+}
+
+.skill-content{
+    margin: 80px;
+}
