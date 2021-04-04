@@ -47,3 +47,67 @@
 .skill-content{
     margin: 80px;
 }
+
+@media (max-width: 1024px){
+
+    .about-contents{
+
+        h1{
+            font-size: 46px;
+        }
+
+        i{
+            font-size: 50px;
+        }
+    }
+
+    .profile-content{
+        margin: 0px;
+    }
+
+    .about-content{
+        margin: 50px;
+    }
+
+    .about-title{
+        margin: 150px 100px
+    }
+
+    .about-text{
+        margin: 18px;
+        font-size: 10px;
+    }
+
+    .skill-contents{
+        margin: 125px;
+    }
+
+    .skill-content{
+        margin: 55px;
+    }
+}
+
+@media (max-width: 600px){
+
+    .about-contents h1 {
+        font-size: 35px;
+        margin: 100px 0px;
+    }
+
+    .about-title {
+        margin: 0px;
+    }
+
+    .hobby-pictures {
+        margin: 50px;
+    }
+
+    .skill-contents{
+        margin: 50px;
+    }
+
+    .skill-content {
+        margin: 29px;
+    }
+
+}

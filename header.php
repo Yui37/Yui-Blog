@@ -12,12 +12,12 @@
     <!--header start-->
     <header>
         <div class="row header-container full-width-container">
-            <div class="site-title column-6 column-sm-7 column-md-6">
+            <div class="site-title site-title column-6 column-sm-7 column-md-6">
                 <h1>
                     <?php bloginfo('name'); ?>
                 </h1>
             </div>
-            <div class="menu-container column-3 column-md-4 column-sm-2">
+            <div class="row menu-container column-3 column-md-4 column-sm-2">
                 <?php
                     wp_nav_menu(
                         array(
