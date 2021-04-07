@@ -5,7 +5,7 @@
     <div class="sidebar column-3 column-md-3">
     <div class="side-contents" class="profile">
         <h2>About Me</h2>
-        <img src="/wp-content/themes/YUI-BLOG/bikewithflag.jpg" alt="Yuiのホームページ" class= "bike">
+        <img src="/wp-content/themes/YUI-BLOG/images/bikewithflag.jpg" alt="Yuiのホームページ" class= "bike">
         <div class="profile-contents">
         <div class="oqupation">
             <ul class="oqupation-contents">

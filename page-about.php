@@ -9,88 +9,100 @@
         　<?php wp_head(); ?>
     </head>
     <body>
-
+        <div class="wrapper">
         <header>
-            <div class="row header-container full-width-container">
-                <div class="site-title column-6 column-sm-7 column-md-6">
-                    <h1>
-                        <?php bloginfo('name'); ?>
-                    </h1>
-                </div>
-                <div class="menu-container column-3 column-md-4 column-sm-2">
-                    <?php
-                        wp_nav_menu(
-                            array(
-                                'theme_location' => 'header-menu',
-                                // 'header-menu' => 'primary',
-                                // 'link_before' => '<div class="blog">',
-                                // 'link_after' => '</div>',
-                                )
-                            );
-                    ?>
-                </div>
-                <div class="sns column-2 column-sm-3 column-md-2">
-                    <?php get_template_part( 'sns' ); ?>
-                </div>
-            </div>
-        </header>
-
-        <main>
-            <div class="about-container full-width-container">
-                <div class="about-contents about-picture">
-                    <div class="profile-picture">
-                        <img src="/wp-content/themes/YUI-BLOG/bikewithflag.jpg" alt="Yuiのホームページ" class= "bike">
+                <div class="row header-container full-width-container">
+                    <div class="site-title column-6 column-md-5 column-sm-7">
+                        <h1>
+                            <a href="http://rain.local">
+                                <?php bloginfo('name'); ?>
+                            </a>
+                        </h1>
                     </div>
-
-                    <div class="profile-content about">
-                        <div class="about-title">
-                            <h1>About Me</h1>
-                        </div>
-                        <div class="about-content dental">
-                            <i class="fas fa-tooth"></i>
-                            <div class="about-text">
-                                <h2>歯科衛生士</h2>
-                                <h3>Dental Hygienist</h3>
-                            </div>
-                        </div>
-                        <div class="about-content frontend">
-                            <i class="fas fa-code"></i>
-                            <div class="about-text">
-                                <h2>フロントエンドエンジニア</h2>
-                                <h3>Front-end Engineer</h3>
-                            </div>
-                        </div>
-                        <div class="about-content working-holoday">
-                            <i class="fab fa-canadian-maple-leaf"></i>
-                            <div class="about-text">
-                                <h2>カナダワーホリ経験者</h2>
-                                <h3>Experienced Canada WH</h3>
-                            </div>
-                        </div>
+                    <div class="menu-container column-3 column-md-4 column-sm-2">
+                        <?php
+                            wp_nav_menu(
+                                array(
+                                    'theme_location' => 'header-menu',
+                                    // 'header-menu' => 'primary',
+                                    // 'link_before' => '<div class="blog">',
+                                    // 'link_after' => '</div>',
+                                    )
+                                );
+                        ?>
                     </div>
+                    <div class="sns column-2 column-md-2 column-sm-3">
+                        <?php get_template_part( 'sns' ); ?>
+                    </div>
+                </div>
+            </header>
 
-                    <div class="profile-content hobby">
-                        <div class="hobby-title">
-                            <h1>Hobby</h1>
-                        </div>
-                        <div class="tlavel">
-                            <!--自分のパソコン内にある画像に差し替え必要-->
-                            <div class="travel-picture hobby-pictures">
-                                <img src="/wp-content/themes/YUI-BLOG/bikewithflag.jpg" alt="Yuiのホームページ" class= "bike">
+            <main>
+                <div class="about-wrap full-width-container">
+                    <div class="about-contents">
+                        <div class="about-content about">
+                            <div class="about-title">
+                                <h1>About Me</h1>
                             </div>
-                            <h2>旅行</h2>
-                            <h3>travel</h3>
-                        </div>
-                        <div class="saxophone">
-                            <!--自分のパソコン内にある画像に差し替え必要-->
-                            <div class="saxophone-picture hobby-pictures">
-                                <img src="/wp-content/themes/YUI-BLOG/bikewithflag.jpg" alt="Yuiのホームページ" class= "bike">
+                            <div class="profile-picture">
+                                <img src="/wp-content/themes/YUI-BLOG/images/bikewithflag.jpg" alt="Yuiのホームページ" class= "bike">
                             </div>
-                            <h2>Sax演奏</h2>
-                            <h3>saxophone</h3>
+                            <div class="about-who dental">
+                                <i class="fas fa-tooth"></i>
+                                <div class="about-text">
+                                    <h2>歯科衛生士</h2>
+                                    <h3>Dental Hygienist</h3>
+                                </div>
+                            </div>
+                            <div class="about-who frontend">
+                                <i class="fas fa-code"></i>
+                                <div class="about-text">
+                                    <h2>フロントエンドエンジニア</h2>
+                                    <h3>Front-end Engineer</h3>
+                                </div>
+                            </div>
+                            <div class="about-who working-holoday">
+                                <i class="fab fa-canadian-maple-leaf"></i>
+                                <div class="about-text">
+                                    <h2>カナダワーホリ経験者</h2>
+                                    <h3>Experienced Canada WH</h3>
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="profile-content skill">
+                        <div class="about-content hobby">
+                            <div class="hobby-title">
+                                <h1>Hobby</h1>
+                            </div>
+                            <div class="hobby-content">
+                                <div class="tlavel">
+                                    <div class=" travel-pictures hobby-pictures">
+                                        <img src="/wp-content/themes/YUI-BLOG/images/montreal.jpeg" alt="Yuiのホームページmontreal" class= "travel-picture montreal">
+                                        <img src="/wp-content/themes/YUI-BLOG/images/uyuni.jpeg" alt="Yuiのホームページuyuni" class= "travel-picture uyuni">
+                                        <img src="/wp-content/themes/YUI-BLOG/images/aurora.jpeg" alt="Yuiのホームページaurora" class= "travel-picture aurora">
+                                        <img src="/wp-content/themes/YUI-BLOG/images/germany.jpeg" alt="Yuiのホームページgermany" class= "travel-picture germany">
+                                    </div>
+                                    <div class="about-text">
+                                        <h2>旅行</h2>
+                                        <h3>travel</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hobby-content">
+                                <div class="saxophone">
+                                    <!--自分のパソコン内にある画像に差し替え必要-->
+                                    <div class="saxophone-picture hobby-pictures">
+                                        <img src="/wp-content/themes/YUI-BLOG/images/sax.jpeg" alt="Yuiのホームページsax" class= "sax">
+                                    </div>
+                                    <div class="about-text">
+                                        <h2>Sax演奏</h2>
+                                        <h3>saxophone</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="about-content skill">
                             <div class="skill-title">
                                 <h1>Skill</h1>
                             </div>
@@ -120,8 +132,8 @@
 
                     </div>
                 </div>
-            </div>
-        </main>
-        <?php get_footer(); ?>
+            </main>
+            <?php get_footer(); ?>
+        </div>
     </body>
 </html>

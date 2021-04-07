@@ -1,3 +1,7 @@
+.middle-container{
+    margin: 20px;
+}
+
 .page-title {
     display: none;
 }
@@ -20,10 +24,8 @@
 }
 
 img {
-    height: 90%;
     width: 90%;
     border-radius: 20px;
-    margin: 50px;
   }
 
 .blog-content  {
@@ -70,9 +72,15 @@ img {
     font-size: 25px;
 }
 
-.pagenation{
-    text-align: center;
-    margin: 100px;
+.pagenation {
+
+    a {
+        color: $base-color;
+    }
+    .navigation{
+        justify-content: center;
+        margin: 100px;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -92,10 +100,8 @@ img {
     }
 
     img {
-        height: 90%;
         width: 90%;
         border-radius: 20px;
-        margin: 20px;
       }
 
     .blog-content {
@@ -145,10 +151,8 @@ img {
     }
 
     img {
-        height: 90%;
         width: 90%;
         border-radius: 20px;
-        margin: 20px;
       }
 
     .blog-contents {

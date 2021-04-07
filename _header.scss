@@ -1,11 +1,19 @@
 .header-container{
-    height: 60px;
     padding: 25px;
     background-color: $base-background-color;
 }
 
 .site-title h1{
     color: #FCF8E8;
+    font-weight: 10;
+
+    a{
+        color: #FCF8E8;
+    }
+
+    a:hover{
+        color: #FDCAAB;
+    }
 }
 
 .menu-container{
@@ -18,17 +26,22 @@
     ul {
         display: flex;
         justify-content: center;
+
+        li a{
+            font-size: 22px;
+            color: #FDCAAB;
+            margin: 10px;
+        }
+
+        li a:hover{
+            color: #FCF8E8;
+        }
+
+        .current_page_item a{
+            color: #FCF8E8;
+        }
     }
 
-    li a{
-        font-size: 22px;
-        color: #FDCAAB;
-        margin: 10px;
-    }
-
-    li a:hover{
-    color: #FCF8E8;
-    }
 }
 
 .navbar-light .navbar-toggler{
@@ -58,13 +71,21 @@
         padding: 15px 0px;
     }
 
+    .site-title{
+        margin: 10px;
+    }
+
     .site-title h1{
         font-size: 30px;
     }
 
     div .menu > ul{
         font-size: 12px;
-      }
+    }
+
+      .sns{
+          margin: 10px;
+    }
 
     .sns i{
         font-size: 15px;

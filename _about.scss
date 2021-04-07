@@ -1,5 +1,6 @@
-.about-container{
+.about-wrap{
     text-align: center;
+    justify-content: center;
 }
 
 .about-contents{
@@ -7,7 +8,8 @@
     h1{
         color: $base-background-color;
         font-size: 80px;
-        margin: 200px 100px 100px;
+        font-weight: 10;
+        margin-top: 100px;
     }
 
     i{
@@ -16,17 +18,16 @@
     }
 }
 
-.about-picture{
-    margin: 100px 0px;
-}
-
-.profile-content{
+.profile-picture{
     margin: 100px;
 }
 
-
 .about-content{
-    margin: 150px;
+    margin-bottom: 300px;
+}
+
+.about-who{
+    margin: 200px 0px;
 }
 
 .about-text{
@@ -35,6 +36,19 @@
 
 .hobby-pictures{
     margin: 100px;
+}
+
+.hobby-content{
+    margin: 200px 0px;
+}
+
+.travel-pictures{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.travel-picture{
+    width: 50%;
 }
 
 .skill-contents{
@@ -46,6 +60,10 @@
 
 .skill-content{
     margin: 80px;
+
+    h2{
+        font-weight: 10;
+    }
 }
 
 @media (max-width: 1024px){
@@ -53,29 +71,33 @@
     .about-contents{
 
         h1{
-            font-size: 46px;
+            font-size: 70px;
         }
 
         i{
-            font-size: 50px;
+            font-size: 100px;
         }
     }
 
-    .profile-content{
-        margin: 0px;
-    }
-
-    .about-content{
-        margin: 50px;
+    .about-content {
+        margin-bottom: 200px;
     }
 
     .about-title{
         margin: 150px 100px
     }
 
+    .about-who {
+        margin: 100px 0px;
+    }
+
     .about-text{
         margin: 18px;
-        font-size: 10px;
+        font-size: 20px;
+    }
+
+    .hobby-content{
+        margin-top: 100px;
     }
 
     .skill-contents{
@@ -91,7 +113,6 @@
 
     .about-contents h1 {
         font-size: 35px;
-        margin: 100px 0px;
     }
 
     .about-title {
@@ -99,11 +120,11 @@
     }
 
     .hobby-pictures {
-        margin: 50px;
+        margin: 42px;
     }
 
     .skill-contents{
-        margin: 50px;
+        margin: 38px;
     }
 
     .skill-content {
