@@ -48,7 +48,7 @@
                                 <!-- リンクへ -->
                                 <a href="">
                                     <!--自分のポートフォリオに差し替え必要-->
-                                    <img src="/wp-content/themes/YUI-BLOG/images/bikewithflag.jpg" alt="Yuiのホームページ" class= "bike">
+                                    <img src="/wp-content/themes/YUI-BLOG/images/bikewithflag.jpg" alt="Yuiのホームページ">
                                 </a>
                             </div>
                             <div class="works-skills">

@@ -19,14 +19,11 @@
     background-color: #FCF8E8;
 }
 
-.blog-pic {
-    text-align: center;
-}
-
-img {
+.blog-pic img{
     width: 90%;
+    margin: 50px;
     border-radius: 20px;
-  }
+}
 
 .blog-content  {
     padding: 50px;
@@ -99,10 +96,10 @@ img {
         margin-top: 10px;
     }
 
-    img {
-        width: 90%;
-        border-radius: 20px;
-      }
+    .blog-pic img {
+        margin: 20px;
+        height: 300px;
+    }
 
     .blog-content {
 
@@ -150,10 +147,9 @@ img {
         margin-top: 10px;
     }
 
-    img {
-        width: 90%;
-        border-radius: 20px;
-      }
+    .blog-pic img {
+        height: 200px;
+    }
 
     .blog-contents {
         margin-bottom: 40px;

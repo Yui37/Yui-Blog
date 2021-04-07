@@ -14,14 +14,14 @@
     <div class="wrapper">
         <header>
             <div class="row header-container full-width-container">
-                <div class="site-title column-6 column-md-5 column-sm-7">
+                <div class="site-title column-6 column-md-5 column-sm-3">
                     <h1>
                         <a href="http://rain.local">
                             <?php bloginfo('name'); ?>
                         </a>
                     </h1>
                 </div>
-                <div class="row menu-container column-3 column-md-4 column-sm-2">
+                <div class="row menu-container column-3 column-md-4 column-sm-4">
                     <?php
                         wp_nav_menu(
                             array(
@@ -33,7 +33,7 @@
                             );
                     ?>
                 </div>
-                <div class="sns column-2 column-md-2 column-sm-3">
+                <div class="sns column-2 column-md-2 column-sm-2">
                     <?php get_template_part( 'sns' ); ?>
                 </div>
             </div>

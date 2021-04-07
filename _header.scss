@@ -97,22 +97,23 @@
     /* ハンバーガーアイコン入れたい */
 
     .header-container{
-        height: 40px;
         padding: 7px 0px;
     }
 
     .site-title h1{
         font-size: 15px;
-        margin: 6px;
+        margin: 6px 0px
     }
 
-    .menu-container{
-        display: none;
+    .menu-container {
+        margin: 15px 20px 15px 0px;
+    }
+
+    .menu ul li a {
+        font-size: 8px;
     }
 
     .sns {
-
-        margin: 5px;
 
         i{
             padding: 5px;

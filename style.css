@@ -15,8 +15,8 @@
   color: #FDCAAB;
 }
 
-.profile-picture {
-  margin: 100px;
+.profile-picture img {
+  width: 90%;
 }
 
 .about-content {
@@ -46,6 +46,10 @@
 
 .travel-picture {
   width: 50%;
+}
+
+.saxophone-picture img {
+  width: 90%;
 }
 
 .skill-contents {
@@ -155,6 +159,11 @@ iframe {
   border-right-width: 0px;
   border-bottom-width: 0px;
   border-left-width: 0px;
+}
+
+img {
+  border-radius: 20px;
+  justify-content: center;
 }
 
 .works-container {
@@ -439,22 +448,22 @@ h5 {
 @media (max-width: 600px) {
   /* ハンバーガーアイコン入れたい */
   .header-container {
-    height: 40px;
     padding: 7px 0px;
   }
 
   .site-title h1 {
     font-size: 15px;
-    margin: 6px;
+    margin: 6px 0px;
   }
 
   .menu-container {
-    display: none;
+    margin: 15px 20px 15px 0px;
   }
 
-  .sns {
-    margin: 5px;
+  .menu ul li a {
+    font-size: 8px;
   }
+
   .sns i {
     padding: 5px;
   }
@@ -484,12 +493,9 @@ h5 {
   background-color: #FCF8E8;
 }
 
-.blog-pic {
-  text-align: center;
-}
-
-img {
+.blog-pic img {
   width: 90%;
+  margin: 50px;
   border-radius: 20px;
 }
 
@@ -555,9 +561,9 @@ img {
     margin-top: 10px;
   }
 
-  img {
-    width: 90%;
-    border-radius: 20px;
+  .blog-pic img {
+    margin: 20px;
+    height: 300px;
   }
 
   .blog-content {
@@ -601,9 +607,8 @@ img {
     margin-top: 10px;
   }
 
-  img {
-    width: 90%;
-    border-radius: 20px;
+  .blog-pic img {
+    height: 200px;
   }
 
   .blog-contents {
@@ -645,7 +650,8 @@ img {
   margin-bottom: 20px;
 }
 
-img.bike {
+.side-contents img {
+  width: 50%;
   margin: 0;
   border-radius: 20px;
 }
@@ -713,6 +719,9 @@ img.bike {
   text-align: center;
   margin: 100px 200px;
 }
+.works-picture a > img {
+  width: 90%;
+}
 
 .works-skills {
   text-align: center;
@@ -749,6 +758,21 @@ img.bike {
   }
   .works-skills h2 {
     font-size: 15px;
+  }
+}
+.middle-container {
+  justify-content: center;
+  margin: 0px;
+}
+
+@media (max-width: 1024px) {
+  .content-texts p {
+    font-size: 19px;
+  }
+}
+@media (max-width: 600px) {
+  .content-texts p {
+    font-size: 17px;
   }
 }
 

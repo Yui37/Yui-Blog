@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://kit.fontawesome.com/779dc48fa9.js" crossorigin="anonymous"></script>
     <title><?php bloginfo('name'); ?></title>
-    　<?php wp_head(); ?>
+     <?php wp_head(); ?>
   </head>
   <body>
     <div class="wrapper">

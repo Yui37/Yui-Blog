@@ -45,7 +45,7 @@
                                 <h1>About Me</h1>
                             </div>
                             <div class="profile-picture">
-                                <img src="/wp-content/themes/YUI-BLOG/images/bikewithflag.jpg" alt="Yuiのホームページ" class= "bike">
+                                <img src="/wp-content/themes/YUI-BLOG/images/bikewithflag.jpg" alt="Yuiのホームページ" class="about-bike">
                             </div>
                             <div class="about-who dental">
                                 <i class="fas fa-tooth"></i>
@@ -92,7 +92,7 @@
                                 <div class="saxophone">
                                     <!--自分のパソコン内にある画像に差し替え必要-->
                                     <div class="saxophone-picture hobby-pictures">
-                                        <img src="/wp-content/themes/YUI-BLOG/images/sax.jpeg" alt="Yuiのホームページsax" class= "sax">
+                                        <img src="/wp-content/themes/YUI-BLOG/images/sax.jpeg" alt="Yuiのホームページsax" class="sax">
                                     </div>
                                     <div class="about-text">
                                         <h2>Sax演奏</h2>
