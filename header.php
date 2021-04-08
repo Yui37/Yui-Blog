@@ -21,7 +21,7 @@
                         </a>
                     </h1>
                 </div>
-                <div class="row menu-container column-3 column-md-4 column-sm-4">
+                <div class="row menu-container column-3 column-md-4">
                     <?php
                         wp_nav_menu(
                             array(
@@ -33,18 +33,26 @@
                             );
                     ?>
                 </div>
-                <div class="pos-f-t">
-                    <div class="collapse" id="navbarToggleExternalContent">
-                        <div class="bg-dark p-4">
-                            <h5 class="text-white h4">Collapsed content</h5>
-                            <span class="text-muted">Toggleable via the navbar brand.</span>
-                        </div>
-                    </div>
+                <div class="humberger-menu-container column-sm-4">
                     <nav class="navbar navbar-dark bg-dark">
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                     </nav>
+                    <div class="collapse" id="navbarToggleExternalContent">
+                        <div class="bg-dark p-4">
+                            <?php
+                            wp_nav_menu(
+                                array(
+                                    'theme_location' => 'header-menu',
+                                    // 'header-menu' => 'primary',
+                                    // 'link_before' => '<div class="blog">',
+                                    // 'link_after' => '</div>',
+                                    )
+                                );
+                            ?>
+                        </div>
+                    </div>
                 </div>
                 <div class="sns column-2 column-md-2 column-sm-2">
                     <?php get_template_part( 'sns' ); ?>
