@@ -8,7 +8,7 @@
   color: #DF7861;
   font-size: 80px;
   font-weight: 10;
-  margin-top: 100px;
+  margin: 100px;
 }
 .about-contents i {
   font-size: 130px;
@@ -79,11 +79,11 @@
   }
 
   .about-title {
-    margin: 150px 100px;
+    margin: 100px 100px;
   }
 
   .about-who {
-    margin: 100px 0px;
+    margin: 200px 0px;
   }
 
   .about-text {
@@ -105,11 +105,26 @@
 }
 @media (max-width: 600px) {
   .about-contents h1 {
-    font-size: 35px;
+    font-size: 25px;
+    margin: 75px;
+  }
+  .about-contents i {
+    font-size: 70px;
   }
 
   .about-title {
     margin: 0px;
+  }
+
+  .about-who {
+    margin: 100px 0px;
+  }
+
+  .about-text h2 {
+    font-size: 17px;
+  }
+  .about-text h3 {
+    font-size: 17px;
   }
 
   .hobby-pictures {
@@ -122,6 +137,9 @@
 
   .skill-content {
     margin: 29px;
+  }
+  .skill-content h2 {
+    font-size: 17px;
   }
 }
 * {
@@ -166,14 +184,19 @@ img {
   justify-content: center;
 }
 
-.works-container {
+.contact-container {
   text-align: center;
   margin: 100px;
 }
 
 @media (max-width: 1024px) {
-  .works-container {
-    margin: 0px;
+  .contact-container {
+    margin: 100px 0px;
+  }
+}
+@media (max-width: 600px) {
+  .contact-container {
+    margin-top: 60px;
   }
 }
 .footer-container {
@@ -192,21 +215,26 @@ h5 {
 @media (max-width: 1024px) {
   footer {
     margin-top: 20px;
-    height: 100px;
+    height: 300px;
   }
 
   h5 {
-    padding-top: 40px;
+    padding: 150px;
     font-size: 10px;
   }
 }
 @media (max-width: 600px) {
-  .pagenation li {
-    font-size: 15px;
+  footer {
+    height: 200px;
   }
 
   h5 {
+    padding-top: none;
     padding: 100px;
+  }
+
+  .pagenation li {
+    font-size: 15px;
   }
 }
 .full-width-container {
@@ -389,6 +417,10 @@ h5 {
   margin: 10px;
 }
 
+.humberger-menu-container {
+  display: none;
+}
+
 .menu ul {
   display: flex;
   justify-content: center;
@@ -421,7 +453,7 @@ h5 {
 
 @media (max-width: 1024px) {
   .header-container {
-    height: 70px;
+    height: 90px;
     padding: 15px 0px;
   }
 
@@ -431,6 +463,7 @@ h5 {
 
   .site-title h1 {
     font-size: 30px;
+    margin-left: 30px;
   }
 
   div .menu > ul {
@@ -449,19 +482,39 @@ h5 {
   /* ハンバーガーアイコン入れたい */
   .header-container {
     padding: 7px 0px;
+    height: 70px;
   }
 
+  .site-title {
+    height: 43px;
+  }
   .site-title h1 {
     font-size: 15px;
     margin: 6px 0px;
   }
 
   .menu-container {
-    margin: 15px 20px 15px 0px;
+    display: none;
+  }
+
+  .menu ul {
+    display: inline-flex;
+  }
+
+  .collapsing {
+    transition: none;
   }
 
   .menu ul li a {
     font-size: 8px;
+  }
+
+  .menu ul .current_page_item a {
+    color: #DF7861;
+  }
+
+  .humberger-menu-container {
+    display: block;
   }
 
   .sns i {
@@ -472,10 +525,6 @@ h5 {
     font-size: 15px;
   }
 }
-.middle-container {
-  margin: 20px;
-}
-
 .page-title {
   display: none;
 }
@@ -495,6 +544,7 @@ h5 {
 
 .blog-pic img {
   width: 90%;
+  height: 500px;
   margin: 50px;
   border-radius: 20px;
 }
@@ -597,6 +647,10 @@ h5 {
   }
 }
 @media (max-width: 600px) {
+  .main-bar {
+    margin-top: 50px;
+  }
+
   .blog-container {
     margin-top: 30px;
   }
@@ -612,7 +666,7 @@ h5 {
   }
 
   .blog-contents {
-    margin-bottom: 40px;
+    margin-top: 0px;
     border-radius: 10px;
   }
 
@@ -731,7 +785,7 @@ h5 {
 @media (max-width: 1024px) {
   .works-title h1 {
     font-size: 70px;
-    margin: 85px;
+    margin: 100px;
   }
 
   .works-picture {
@@ -746,7 +800,8 @@ h5 {
 @media (max-width: 1024px) and (max-width: 600px) {
   .works-title h1 {
     font-size: 25px;
-    margin: 50px;
+    margin: 0px;
+    margin-top: 75px;
   }
 
   .works-picture {
@@ -757,12 +812,20 @@ h5 {
     margin: 50px;
   }
   .works-skills h2 {
-    font-size: 15px;
+    font-size: 10px;
   }
 }
+.single-blog-title {
+  padding: 0px 50px;
+}
+
 .middle-container {
   justify-content: center;
-  margin: 0px;
+}
+
+.single-blog-contents {
+  background-color: none;
+  border-bottom: none;
 }
 
 @media (max-width: 1024px) {
@@ -773,6 +836,11 @@ h5 {
 @media (max-width: 600px) {
   .content-texts p {
     font-size: 17px;
+  }
+
+  .single-blog-title h1 {
+    font-size: 25px;
+    margin: 30px;
   }
 }
 

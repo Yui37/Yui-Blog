@@ -9,7 +9,7 @@
         color: $base-background-color;
         font-size: 80px;
         font-weight: 10;
-        margin-top: 100px;
+        margin: 100px;
     }
 
     i{
@@ -88,11 +88,11 @@
     }
 
     .about-title{
-        margin: 150px 100px
+        margin: 100px 100px
     }
 
     .about-who {
-        margin: 100px 0px;
+        margin: 200px 0px;
     }
 
     .about-text{
@@ -115,12 +115,33 @@
 
 @media (max-width: 600px){
 
-    .about-contents h1 {
-        font-size: 35px;
+    .about-contents{
+
+        h1 {
+        font-size: 25px;
+        margin: 75px
+        }
+
+        i {
+        font-size: 70px;
+        }
     }
 
     .about-title {
         margin: 0px;
+    }
+
+    .about-who {
+        margin: 100px 0px;
+    }
+
+    .about-text {
+        h2{
+            font-size: 17px;
+        }
+        h3{
+            font-size: 17px;
+        }
     }
 
     .hobby-pictures {
@@ -133,6 +154,10 @@
 
     .skill-content {
         margin: 29px;
+
+        h2{
+            font-size: 17px;
+        }
     }
 
 }

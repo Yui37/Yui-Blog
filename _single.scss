@@ -1,6 +1,14 @@
+.single-blog-title{
+    padding: 0px 50px;
+}
+
 .middle-container {
     justify-content: center;
-    margin: 0px;
+}
+
+.single-blog-contents{
+    background-color: none;
+    border-bottom: none;
 }
 
 @media (max-width: 1024px){
@@ -15,5 +23,10 @@
 
     .content-texts p {
         font-size: 17px;
+    }
+
+    .single-blog-title h1{
+        font-size: 25px;
+        margin: 30px;
     }
 }

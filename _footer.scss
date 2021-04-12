@@ -15,11 +15,11 @@ h5 {
 
     footer {
         margin-top: 20px;
-        height: 100px;
+        height: 300px;
     }
 
     h5 {
-        padding-top: 40px;
+        padding: 150px;
         font-size: 10px;
     }
 
@@ -27,12 +27,18 @@ h5 {
 
 @media (max-width: 600px) {
 
-    .pagenation li {
-        font-size: 15px;
+    footer {
+        height: 200px;
     }
 
-    h5{
+    h5 {
+        padding-top: none;
         padding: 100px;
+    }
+
+
+    .pagenation li {
+        font-size: 15px;
     }
 
 }

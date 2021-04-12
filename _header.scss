@@ -52,6 +52,7 @@
     display: none;
 }
 
+
 .sns i{
     font-size: 30px;
     padding: 10px;
@@ -71,7 +72,7 @@
 @media (max-width: 1024px){
 
     .header-container{
-        height: 70px;
+        height: 90px;
         padding: 15px 0px;
     }
 
@@ -81,6 +82,7 @@
 
     .site-title h1{
         font-size: 30px;
+        margin-left: 30px;
     }
 
     div .menu > ul{
@@ -102,19 +104,42 @@
 
     .header-container{
         padding: 7px 0px;
+        height: 70px;
     }
 
-    .site-title h1{
+    .site-title{
+
+        height: 43px;
+
+        h1{
         font-size: 15px;
         margin: 6px 0px
+        }
+
     }
 
     .menu-container {
         display: none;
     }
 
+    .menu ul {
+        display: inline-flex;
+    }
+
+    .collapsing{
+        transition: none;
+    }
+
     .menu ul li a {
         font-size: 8px;
+    }
+
+    .menu ul .current_page_item a {
+        color: $base-background-color;
+    }
+
+    .humberger-menu-container{
+        display: block;
     }
 
     .sns {
