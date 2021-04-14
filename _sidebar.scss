@@ -16,6 +16,15 @@
     border-radius: 20px;
 }
 
+.side-blog-categories li a{
+    color: $base-color;
+    text-decoration: none;
+}
+
+.side-blog-categories li a:hover{
+    color: #FDCAAB;
+}
+
 .profile-contents {
 
     h4 {
@@ -37,9 +46,17 @@
     text-decoration: none;
 }
 
+.blog-title > li > a:hover{
+    color: #FDCAAB;
+}
+
 .list-contents > li > a {
     color: $base-color;
     text-decoration: none;
+}
+
+.list-contents > li > a:hover{
+    color: #FDCAAB;
 }
 
 @media (max-width: 1024px) {

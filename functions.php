@@ -17,4 +17,10 @@
         add_theme_support('post-thumbnails');
     }
     add_action('init', 'init_func');
+
+    //記事一覧の本文の省略。。。削除
+    function new_excerpt_more($more) {
+      return '......';
+    }
+    add_filter('excerpt_more', 'new_excerpt_more');
 ?>

@@ -12,12 +12,8 @@
               <?php the_post_thumbnail(); ?>
             </div>
             <div class="blog-content">
-              <div class="row blog-tags">
-                <p class="blog-tag"><?php single_tag_title(); ?></p>
-                <p class="blog-tag"><?php single_tag_title(); ?></p>
-                <p class="blog-tag"><?php single_tag_title(); ?></p>
-                <p class="blog-tag"><?php single_tag_title(); ?></p>
-                <p class="blog-tag"><?php single_tag_title(); ?></p>
+              <div class="row blog-categories">
+                <?php the_category( $separator ); ?>
               </div>
               <div class="content-texts">
                 <h1>

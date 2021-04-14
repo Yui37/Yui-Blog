@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
         <script src="https://kit.fontawesome.com/779dc48fa9.js" crossorigin="anonymous"></script>
         <title><?php bloginfo('name'); ?></title>
-        　<?php wp_head(); ?>
+        <?php wp_head(); ?>
     </head>
     <body>
         <div class="wrapper">
@@ -75,19 +75,15 @@
                   <?php the_post_thumbnail(); ?>
                 </div>
                 <div class="blog-content">
-                  <div class="row single-blog-tags">
-                    <p class="blog-tag"><?php single_tag_title(); ?></p>
-                    <p class="blog-tag"><?php single_tag_title(); ?></p>
-                    <p class="blog-tag"><?php single_tag_title(); ?></p>
-                    <p class="blog-tag"><?php single_tag_title(); ?></p>
-                    <p class="blog-tag"><?php single_tag_title(); ?></p>
+                  <div class="row single-blog-categories">
+                  <?php the_category( $separator, $post_id ); ?>
                   </div>
                   <div class="content-texts">
                     <h4>
                       <?php the_time('F.d.Y'); ?>
                     </h4>
                     <p class="blog-paragraph">
-                      <?php the_excerpt(); ?>
+                    <?php the_content( $more_link_text, $stripteaser ); ?>
                     </p>
                   </div>
                 </div>

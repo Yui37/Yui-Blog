@@ -33,19 +33,21 @@
     </div>
     <div class="side-contents blog-category">
         <h2>カテゴリー一覧</h2>
-        <ul class="category-contents">
+        <ul class="side-blog-categories">
             <?php
-                $catid = get_the_category();
-                $curCat = $catid[0]->cat_ID;
-
+                // 親カテゴリーのものだけを一覧で取得
                 $args = array(
-                'child_of' => 1, //親カテゴリID
-                'title_li' => '', //タイトルはつけない
-                'current_category' => $curCat
+                'parent' => 0,
+                'orderby' => 'term_order',
+                'order' => 'ASC'
                 );
-
-                wp_list_categories($args);
+                $categories = get_categories( $args );
             ?>
+            <?php foreach( $categories as $category ) : ?>
+                <li>
+                    <a href="<?php echo get_category_link( $category->term_id ); ?>"><?php echo $category->name; ?></a>
+                </li>
+            <?php endforeach; ?>
         </ul>
     </div>
     <div class="side-contents" id="blog-list">

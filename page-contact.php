@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
         <script src="https://kit.fontawesome.com/779dc48fa9.js" crossorigin="anonymous"></script>
         <title><?php bloginfo('name'); ?></title>
-        　<?php wp_head(); ?>
+        <?php wp_head(); ?>
     </head>
     <body>
         <div class="wrapper">
