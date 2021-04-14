@@ -18,6 +18,7 @@
 .blog-pic img{
     width: 90%;
     height: 500px;
+    object-fit: cover;
     margin: 50px;
     border-radius: 20px;
 }
@@ -155,6 +156,8 @@
     .blog-contents {
         margin-top: 0px;
         border-radius: 10px;
+        z-index: 0;
+        position: relative;
     }
 
     .blog-content {

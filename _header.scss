@@ -107,13 +107,17 @@
         height: 70px;
     }
 
+    .site-title h1 a {
+        font-size: 30px;
+    }
+
     .site-title{
 
         height: 43px;
 
         h1{
         font-size: 15px;
-        margin: 6px 0px
+        margin: 0px 0px
         }
 
     }
@@ -123,15 +127,21 @@
     }
 
     .menu ul {
-        display: inline-flex;
+        display: block;
     }
 
     .collapsing{
         transition: none;
     }
 
-    .menu ul li a {
-        font-size: 8px;
+    .menu ul li {
+
+            margin: 10px 0px;
+
+        a {
+        font-size: 17px;
+        margin: 0px;
+        }
     }
 
     .menu ul .current_page_item a {
@@ -142,10 +152,21 @@
         display: block;
     }
 
+    .show {
+        z-index: 1;
+        position: relative;
+        background-color: white;
+
+        .p-4 {
+            margin: 0px;
+        }
+    }
+
     .sns {
 
         i{
             padding: 5px;
+            font-size: 25px;
         }
     }
 

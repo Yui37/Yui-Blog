@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
         <script src="https://kit.fontawesome.com/779dc48fa9.js" crossorigin="anonymous"></script>
         <title><?php bloginfo('name'); ?></title>
-        　<?php wp_head(); ?>
+        <?php wp_head(); ?>
     </head>
     <body>
         <div class="wrapper">
@@ -36,9 +36,10 @@
                     </div>
                     <div class="site-title column-6 column-md-5 column-sm-5">
                         <h1>
-                            <a href="http://rain.local">
-                                <?php bloginfo('name'); ?>
-                            </a>
+                            <li>
+                                <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo('name'); ?>
+                                </a>
+                            </li>
                         </h1>
                     </div>
                     <div class="row menu-container column-3 column-md-4">

@@ -485,12 +485,16 @@ h5 {
     height: 70px;
   }
 
+  .site-title h1 a {
+    font-size: 30px;
+  }
+
   .site-title {
     height: 43px;
   }
   .site-title h1 {
     font-size: 15px;
-    margin: 6px 0px;
+    margin: 0px 0px;
   }
 
   .menu-container {
@@ -498,15 +502,19 @@ h5 {
   }
 
   .menu ul {
-    display: inline-flex;
+    display: block;
   }
 
   .collapsing {
     transition: none;
   }
 
+  .menu ul li {
+    margin: 10px 0px;
+  }
   .menu ul li a {
-    font-size: 8px;
+    font-size: 17px;
+    margin: 0px;
   }
 
   .menu ul .current_page_item a {
@@ -517,8 +525,18 @@ h5 {
     display: block;
   }
 
+  .show {
+    z-index: 1;
+    position: relative;
+    background-color: white;
+  }
+  .show .p-4 {
+    margin: 0px;
+  }
+
   .sns i {
     padding: 5px;
+    font-size: 25px;
   }
 
   .sns-link {
@@ -545,6 +563,7 @@ h5 {
 .blog-pic img {
   width: 90%;
   height: 500px;
+  object-fit: cover;
   margin: 50px;
   border-radius: 20px;
 }
@@ -668,6 +687,8 @@ h5 {
   .blog-contents {
     margin-top: 0px;
     border-radius: 10px;
+    z-index: 0;
+    position: relative;
   }
 
   .blog-content {
