@@ -8,17 +8,17 @@
         <?php while (have_posts()) : the_post(); ?>
           <div class="blog-contents">
             <a href="<?php the_permalink(); ?>">
-            <div class="blog-pic">
-              <?php the_post_thumbnail(); ?>
-            </div>
             <div class="blog-content">
-              <div class="row blog-categories">
-                <?php the_category( $separator ); ?>
+              <div class="blog-pic">
+                <?php the_post_thumbnail(); ?>
               </div>
               <div class="content-texts">
                 <h1>
                   <?php the_title(); ?>
                 </h1>
+                <h3>
+                  <?php the_category( $separator ); ?>
+                </h3>
                 <h4>
                   <?php the_time('F.d.Y'); ?>
                 </h4>

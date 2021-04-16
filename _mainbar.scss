@@ -30,14 +30,39 @@
 .blog-content  {
     padding: 50px;
     padding-top: 0;
-    color: $base-color;
 }
 
 .content-texts {
 
+    color: $base-color;
+
     h1 {
         font-size: 45px;
         font-weight: 600;
+        margin-bottom: 30px;
+        color: $base-color;
+    }
+
+    h1:hover {
+        color: #FDCAAB;
+        text-decoration: inherit;
+    }
+
+    h3 {
+        margin-bottom: 30px;
+        justify-content: left;
+
+        a{
+            width: 250px;
+            margin: 10px;
+            padding: 10px;
+            font-size: 15px;
+            text-align: center;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+            color: $base-color;
+        }
     }
 
     h4 {
@@ -51,23 +76,6 @@
 
 .content-texts:hover{
     color: $base-background-color;
-}
-
-.blog-categories {
-    margin-bottom: 30px;
-    justify-content: left;
-}
-
-.blog-categories > a{
-    width: 250px;
-    margin: 10px;
-    padding: 10px;
-    font-size: 15px;
-    text-align: center;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-    color: $base-color;
 }
 
 .blog-paragraph {
@@ -115,24 +123,24 @@
             font-size: 30px;
         }
 
+        h3 {
+            margin-bottom: 10px;
+
+            a {
+                width: 100px;
+            margin: 5px;
+            padding: 5px;
+            font-size: 15px;
+            text-align: center;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+            }
+        }
+
         h4 {
             font-size: 10px;
         }
-    }
-
-    .blog-categories {
-        margin-bottom: 10px;
-    }
-
-    .blog-categories {
-        width: 100px;
-        margin: 5px;
-        padding: 5px;
-        font-size: 15px;
-        text-align: center;
-        background-color: white;
-        border-radius: 10px;
-        box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     }
 
     .blog-paragraph {
