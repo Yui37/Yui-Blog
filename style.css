@@ -1073,15 +1073,16 @@ h5 {
   margin: 50px;
 }
 
-.pagenation {
+.single-pagenation {
   padding: 100px;
 }
-.pagenation a {
+.single-pagenation a {
+  color: #707070;
   margin: 200px;
   font-size: 20px;
   text-decoration: none;
 }
-.pagenation a:hover {
+.single-pagenation a:hover {
   color: #FDCAAB;
 }
 
@@ -1124,6 +1125,14 @@ h5 {
   .single-blog-title h1 {
     font-size: 20px;
     margin: 30px 0px 10px;
+  }
+
+  .single-pagenation {
+    padding: 20px;
+  }
+  .single-pagenation a {
+    margin: 20px;
+    font-size: 10px;
   }
 }
 

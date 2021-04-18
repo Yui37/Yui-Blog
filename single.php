@@ -32,7 +32,7 @@
       </div>
       <?php endwhile; ?>
     </div>
-    <div class="pagenation">
+    <div class="single-pagenation">
       <?php previous_post_link('%link', '前の記事へ'); ?>
       <?php next_post_link('%link', '次の記事へ'); ?>
     </div>
