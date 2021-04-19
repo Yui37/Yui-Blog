@@ -112,7 +112,6 @@
     }
 
     .site-title{
-
         h1{
         font-size: 15px;
         margin: 0px 0px
@@ -161,7 +160,7 @@
 
         i{
             padding: 5px;
-            font-size: 19px;
+            font-size: 17px;
         }
     }
 
@@ -301,6 +300,12 @@
         margin-top: -3px;
         background: #fff;
     }
+
+    /*中身次第で工夫してください　ここから*/
+    .top-info{
+        padding: 10px 15px;
+    }
+    /*中身次第で工夫してください　ここまで*/
 
     .menu-container{
         padding: 5px 10px;

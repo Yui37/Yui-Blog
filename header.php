@@ -23,18 +23,12 @@
                                     <label class="nav-unshown" id="nav-close" for="nav-input"></label>
                                     <div id="nav-content">
                                         <div class="hamburger-top">MENU<label class="cancel" for="nav-input"></label></div>
-                                        <?php
-                                            if ( has_nav_menu( 'smartphone-menu' ) ) :
-                                            $defaults = array(
-                                                'theme_location' => 'smartphone-menu',
+                                        <?php wp_nav_menu(
+                                            array(
+                                                'theme_location' => 'header-menu',
+                                                )
                                             );
-                                            else :
-                                            $defaults = array(
-                                                'theme_location' => 'primary-menu',
-                                            );
-                                            endif;
                                         ?>
-                                        <?php wp_nav_menu( $defaults ); ?>
                                     </div>
                                 </div>
                             </dl>
@@ -53,11 +47,8 @@
                             wp_nav_menu(
                                 array(
                                     'theme_location' => 'header-menu',
-                                    // 'header-menu' => 'primary',
-                                    // 'link_before' => '<div class="blog">',
-                                    // 'link_after' => '</div>',
-                                    )
-                                );
+                                )
+                            );
                         ?>
                     </div>
                     <div class="sns column-2 column-md-2 column-sm-2">

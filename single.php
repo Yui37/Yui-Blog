@@ -3,7 +3,7 @@
   <div class="row middle-container full-width-container">
     <!--main start-->
     <div class="single-main">
-      <div class="blog-container">
+      <div class="single-blog-container">
         <?php while (have_posts()) : the_post(); ?>
         <div class="single-blog-contents">
           <a href="<?php the_permalink(); ?>"></a>
@@ -12,7 +12,7 @@
               <?php the_title(); ?>
             </h1>
           </div>
-          <div class="blog-pic">
+          <div class="single-blog-pic">
             <?php the_post_thumbnail(); ?>
           </div>
           <div class="single-blog-content">
@@ -23,7 +23,7 @@
               <h4>
                 <?php the_time('F.d.Y'); ?>
               </h4>
-              <p class="blog-paragraph">
+              <p class="single-blog-paragraph">
               <?php the_content( $more_link_text, $stripteaser ); ?>
               </p>
             </div>

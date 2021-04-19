@@ -17,7 +17,7 @@
                   <?php the_title(); ?>
                 </h1>
                 <h3>
-                  <?php the_tags(' ', '  '); ?>
+                  <?php get_the_tag_list(); ?>
                 </h3>
                 <h4>
                   <?php the_time('F.d.Y'); ?>
