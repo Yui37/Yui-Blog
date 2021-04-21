@@ -52,26 +52,26 @@
         margin-bottom: 30px;
         justify-content: left;
         width: 250px;
-            margin: 10px;
-            padding: 10px;
-            font-size: 15px;
-            text-align: center;
-            background-color: white;
-            border-radius: 10px;
-            box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-            color: $base-color;
+        margin: 10px;
+        padding: 10px;
+        font-size: 15px;
+        text-align: center;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+        color: $base-color;
 
-        a{
-            width: 250px;
-            margin: 10px;
-            padding: 10px;
-            font-size: 15px;
-            text-align: center;
-            background-color: white;
-            border-radius: 10px;
-            box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-            color: $base-color;
-        }
+        // a{
+        //     width: 250px;
+        //     margin: 10px;
+        //     padding: 10px;
+        //     font-size: 15px;
+        //     text-align: center;
+        //     background-color: white;
+        //     border-radius: 10px;
+        //     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+        //     color: $base-color;
+        // }
     }
 
     h4 {
@@ -79,9 +79,10 @@
     }
 
     p {
-        font-size: 25px;
+        font-size: 20px;
     }
 }
+
 
 .blog-paragraph {
     margin: 30px 0px;

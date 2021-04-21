@@ -17,14 +17,21 @@
                   <?php the_title(); ?>
                 </h1>
                 <h3>
-                  <?php get_the_tag_list(); ?>
+                <?php
+                  $post_tags = get_the_tags();
+                  if ( $post_tags ) {
+                      foreach( $post_tags as $tag ) {
+                      echo $tag->name . ', ';
+                      }
+                  }
+                ?>
                 </h3>
                 <h4>
                   <?php the_time('F.d.Y'); ?>
                 </h4>
-                <p class="blog-paragraph">
+                <div class="blog-paragraph">
                   <?php the_excerpt(); ?>
-                </p>
+                </div>
               </div>
             </div>
           </div>
