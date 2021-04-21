@@ -18,7 +18,7 @@
                 </h1>
                 <h3>
                 <?php
-                  $post_tags = get_the_tags();
+                  $post_tags = the_tags();
                   if ( $post_tags ) {
                       foreach( $post_tags as $tag ) {
                       echo $tag->name . ', ';
@@ -30,7 +30,7 @@
                   <?php the_time('F.d.Y'); ?>
                 </h4>
                 <div class="blog-paragraph">
-                  <?php the_excerpt(); ?>
+                  <?php the_excerpt();?>
                 </div>
               </div>
             </div>
