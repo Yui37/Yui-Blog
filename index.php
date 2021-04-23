@@ -18,20 +18,20 @@
                 </h1>
                 <h3>
                 <?php
-                  $post_tags = the_tags();
-                  if ( $post_tags ) {
-                      foreach( $post_tags as $tag ) {
-                      echo $tag->name . ', ';
-                      }
+                  $posttags = get_the_tags();
+                  if ($posttags) {
+                    foreach($posttags as $tag) {
+                      echo $tag->name . '<a>';
+                    }
                   }
                 ?>
                 </h3>
                 <h4>
                   <?php the_time('F.d.Y'); ?>
                 </h4>
-                <div class="blog-paragraph">
-                  <?php the_excerpt();?>
-                </div>
+                <p class="blog-paragraph">
+                <?php echo mb_strimwidth( strip_tags( get_the_content() ), 0, 400, '…', 'UTF-8' ); ?>
+                </p>
               </div>
             </div>
           </div>
