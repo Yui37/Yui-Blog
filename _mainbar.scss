@@ -20,10 +20,10 @@
 }
 
 .blog-pic img{
-    width: 90%;
+    width: 100%;
     height: 500px;
     object-fit: cover;
-    margin: 50px;
+    margin: 40px 0px;
     border-radius: 20px;
 }
 
@@ -39,7 +39,6 @@
     h1 {
         font-size: 45px;
         font-weight: 600;
-        margin-bottom: 30px;
         color: $base-color;
     }
 
@@ -50,12 +49,13 @@
 
     h3 {
         margin-bottom: 30px;
-        justify-content: left;
+        display: flex;
+        flex-wrap: wrap;
 
-        a{
-            width: 250px;
-            margin: 10px;
-            padding: 10px;
+        p{
+            width: 130px;
+            margin: 5px;
+            padding: 5px;
             font-size: 15px;
             text-align: center;
             background-color: white;
@@ -111,7 +111,7 @@
     }
 
     .blog-pic img {
-        margin: 20px;
+        margin: 20px 0px;
         height: 300px;
     }
 
@@ -126,14 +126,7 @@
         h3 {
             margin-bottom: 10px;
 
-            a {
-                width: 100px;
-            margin: 5px;
-            padding: 5px;
-            font-size: 15px;
-            text-align: center;
-            background-color: white;
-            border-radius: 10px;
+            p {
             box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
             }
         }
@@ -167,6 +160,7 @@
 
     .blog-pic img {
         height: 200px;
+        margin: 0px 0px 20px;
     }
 
     .blog-contents {
@@ -184,10 +178,29 @@
             font-size: 25px;
         }
 
+        h3 {
+            margin-bottom: 10px;
+
+            p {
+                width: 90px;
+                margin: 2px;
+                padding: 2px;
+                font-size: 12px;
+                text-align: center;
+                background-color: white;
+                border-radius: 10px;
+                box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+            }
+        }
+
         h4 {
             font-size: 10px;
             margin: 0px;
         }
+    }
+
+    .content-texts p{
+        font-size: 13px;
     }
 
     .log-categories {
