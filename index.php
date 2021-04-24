@@ -19,21 +19,10 @@
                 <h3>
                 <?php
                   $posttags = get_the_tags();
-<<<<<<< HEAD
                   if ($posttags) {
                     foreach($posttags as $tag) {
                       echo '<p>'. $tag->name .'</p>';
                     }
-=======
-                  // if文条件分岐はなくても正常に動作したので削除
-                  foreach($posttags as $tag) {
-                    // .は、PHPの連結演算子（JSでは+）
-                    // ->は、PHPのオブジェクトキー（オブジェクトの値）にアクセスするアクセス演算子（JSでは obj.keyの.。つまり以下はオブジェクトtagのnameプロパティにアクセス）
-
-                    // i.e. const obj = {name: '花子'};
-                    // console.log(obj.name); アプトプットは「花子」
-                    echo '<p>' . $tag->name . '</p>';
->>>>>>> 8fc1a6aa3120da7bdebd1d0bd968a75018b27473
                   }
                 ?>
                 </h3>
