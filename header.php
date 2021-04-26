@@ -52,7 +52,7 @@
                         ?>
                     </div>
                     <div class="sns column-2 column-md-2 column-sm-2">
-                        <?php get_template_part( 'sns' ); ?>
+                    <?php get_template_part( 'sns' ); ?>
                     </div>
                 </div>
             </header>
