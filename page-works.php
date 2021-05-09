@@ -11,7 +11,7 @@
                             <!-- リンクへ -->
                             <a href="">
                                 <!--自分のポートフォリオに差し替え必要-->
-                                <img src="<?php bloginfo('template_url'); ?>/wp-content/themes/YUI-BLOG/images/bikewithflag.png" alt="Yuiのホームページ">
+                                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/bikewithflag.png" alt="Yuiのホームページ">
                             </a>
                         </div>
                         <div class="works-skills">

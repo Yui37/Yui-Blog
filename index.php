@@ -2,7 +2,6 @@
   <?php get_header(); ?>
   <div class="row middle-container full-width-container">
     <?php get_sidebar(); ?>
-    <!--main start-->
     <div class="main-bar column-9 column-sm-12 column-md-9">
       <div class="blog-container">
         <?php while (have_posts()) : the_post(); ?>
