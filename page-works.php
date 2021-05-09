@@ -11,11 +11,11 @@
                             <!-- リンクへ -->
                             <a href="">
                                 <!--自分のポートフォリオに差し替え必要-->
-                                <img src="/wp-content/themes/YUI-BLOG/images/bikewithflag.jpg" alt="Yuiのホームページ">
+                                <img src="<?php bloginfo('template_url'); ?>/wp-content/themes/YUI-BLOG/images/bikewithflag.png" alt="Yuiのホームページ">
                             </a>
                         </div>
                         <div class="works-skills">
-                            <h2>HTML / CSS / JavaScript / Sass / Bootstrap</h2>
+                            <h2>HTML / CSS / Sass / Bootstrap</h2>
                         </div>
                     </div>
                 </div>

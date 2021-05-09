@@ -8,7 +8,7 @@
                         <h1>About Me</h1>
                     </div>
                     <div class="profile-picture">
-                        <img src="/wp-content/themes/YUI-BLOG/images/bikewithflag.jpg" alt="Yuiのホームページ" class="about-bike">
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/bikewithflag.png" alt="Yuiのホームページ" class="about-bike">
                     </div>
                     <div class="about-who dental">
                         <i class="fas fa-tooth"></i>
@@ -40,10 +40,10 @@
                     <div class="hobby-content">
                         <div class="tlavel">
                             <div class=" travel-pictures hobby-pictures">
-                                <img src="/wp-content/themes/YUI-BLOG/images/montreal.jpeg" alt="Yuiのホームページmontreal" class= "travel-picture montreal">
-                                <img src="/wp-content/themes/YUI-BLOG/images/uyuni.jpeg" alt="Yuiのホームページuyuni" class= "travel-picture uyuni">
-                                <img src="/wp-content/themes/YUI-BLOG/images/aurora.jpeg" alt="Yuiのホームページaurora" class= "travel-picture aurora">
-                                <img src="/wp-content/themes/YUI-BLOG/images/germany.jpeg" alt="Yuiのホームページgermany" class= "travel-picture germany">
+                                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/montreal.png" alt="Yuiのホームページmontreal" class= "travel-picture montreal">
+                                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/uyuni.png" alt="Yuiのホームページuyuni" class= "travel-picture uyuni">
+                                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/aurora.png" alt="Yuiのホームページaurora" class= "travel-picture aurora">
+                                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/germany.png" alt="Yuiのホームページgermany" class= "travel-picture germany">
                             </div>
                             <div class="about-text">
                                 <h2>旅行</h2>
@@ -55,7 +55,7 @@
                         <div class="saxophone">
                             <!--自分のパソコン内にある画像に差し替え必要-->
                             <div class="saxophone-picture hobby-pictures">
-                                <img src="/wp-content/themes/YUI-BLOG/images/sax.jpeg" alt="Yuiのホームページsax" class= "sax">
+                                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/sax.png" alt="Yuiのホームページsax" class= "sax">
                             </div>
                             <div class="about-text">
                                 <h2>Sax演奏</h2>
